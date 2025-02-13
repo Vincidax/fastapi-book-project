@@ -1,5 +1,6 @@
 from typing import OrderedDict
 
+from fastapi import HTTPException
 from fastapi import APIRouter, status
 from fastapi.responses import JSONResponse
 
@@ -31,6 +32,10 @@ db.books = {
         genre=Genre.FANTASY,
     ),
 }
+
+@router.get("/stage2")
+async def override_stage2():
+    raise HTTPException(status_code=404, detail="Not Found")
 
 
 @router.post("/", status_code=status.HTTP_201_CREATED)
