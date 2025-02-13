@@ -1,0 +1,8 @@
+INFO:     Will watch for changes in these directories: ['/home/ubuntu/fastapi-book-project']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [12085] using StatReload
+INFO:     Started server process [12087]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     41.186.96.87:0 - "GET / HTTP/1.0" 404 Not Found
+INFO:     41.186.96.87:0 - "GET /api/v1/books/1 HTTP/1.0" 200 OK
