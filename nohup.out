@@ -6,3 +6,105 @@ INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 INFO:     41.186.96.87:0 - "GET / HTTP/1.0" 404 Not Found
 INFO:     41.186.96.87:0 - "GET /api/v1/books/1 HTTP/1.0" 200 OK
+INFO:     41.186.96.87:0 - "GET /api/v1/books/1 HTTP/1.0" 200 OK
+INFO:     41.186.96.87:0 - "GET /api/v1/books/1 HTTP/1.0" 200 OK
+INFO:     41.186.96.87:0 - "GET /api/v1/books/1 HTTP/1.0" 200 OK
+INFO:     41.186.96.87:0 - "GET /checkhealth HTTP/1.0" 404 Not Found
+INFO:     41.186.96.87:0 - "GET /healthcheck HTTP/1.0" 200 OK
+INFO:     54.196.247.85:0 - "GET / HTTP/1.0" 404 Not Found
+INFO:     185.242.226.153:0 - "GET / HTTP/1.0" 404 Not Found
+INFO:     193.68.89.51:0 - "GET / HTTP/1.0" 404 Not Found
+INFO:     105.178.32.159:0 - "GET / HTTP/1.0" 404 Not Found
+INFO:     105.178.32.159:0 - "GET /favicon.ico HTTP/1.0" 404 Not Found
+INFO:     105.178.32.159:0 - "GET /api/v1/books/2 HTTP/1.0" 200 OK
+INFO:     179.43.191.146:0 - "GET / HTTP/1.0" 404 Not Found
+INFO:     105.178.32.159:0 - "GET / HTTP/1.0" 404 Not Found
+INFO:     54.235.50.111:0 - "GET / HTTP/1.0" 404 Not Found
+INFO:     54.235.50.111:0 - "GET /api/v1/books/1 HTTP/1.0" 200 OK
+INFO:     54.235.50.111:0 - "GET /stage2 HTTP/1.0" 404 Not Found
+INFO:     54.235.50.111:0 - "GET / HTTP/1.0" 404 Not Found
+INFO:     54.235.50.111:0 - "GET /api/v1/books/1 HTTP/1.0" 200 OK
+INFO:     54.235.50.111:0 - "GET /stage2 HTTP/1.0" 404 Not Found
+INFO:     141.98.11.167:0 - "GET / HTTP/1.0" 404 Not Found
+INFO:     193.68.89.51:0 - "GET / HTTP/1.0" 404 Not Found
+INFO:     193.68.89.51:0 - "GET / HTTP/1.0" 404 Not Found
+INFO:     45.156.128.45:0 - "GET / HTTP/1.0" 404 Not Found
+INFO:     193.68.89.51:0 - "GET / HTTP/1.0" 404 Not Found
+INFO:     35.203.211.196:0 - "GET / HTTP/1.0" 404 Not Found
+INFO:     64.62.197.59:0 - "GET / HTTP/1.0" 404 Not Found
+INFO:     64.62.197.57:0 - "GET /webui/ HTTP/1.0" 404 Not Found
+INFO:     64.62.197.57:0 - "GET /favicon.ico HTTP/1.0" 404 Not Found
+INFO:     64.62.197.51:0 - "GET /geoserver/web/ HTTP/1.0" 404 Not Found
+INFO:     176.65.128.61:0 - "GET / HTTP/1.0" 404 Not Found
+INFO:     93.117.31.132:0 - "GET / HTTP/1.0" 404 Not Found
+INFO:     103.153.183.204:0 - "GET /.env HTTP/1.0" 404 Not Found
+INFO:     103.153.183.204:0 - "POST / HTTP/1.0" 404 Not Found
+INFO:     66.63.187.168:0 - "GET /.env HTTP/1.0" 404 Not Found
+INFO:     66.63.187.168:0 - "POST / HTTP/1.0" 404 Not Found
+INFO:     66.63.187.168:0 - "GET /api/index.php/v1/config/application?public=true&page%5Boffset%5D=0&page%5Blimit%5D=60 HTTP/1.0" 404 Not Found
+INFO:     179.43.191.146:0 - "GET / HTTP/1.0" 404 Not Found
+INFO:     54.196.247.85:0 - "GET / HTTP/1.0" 404 Not Found
+INFO:     37.10.114.9:0 - "GET / HTTP/1.0" 404 Not Found
+INFO:     37.10.114.9:0 - "GET / HTTP/1.0" 404 Not Found
+INFO:     37.10.114.9:0 - "GET / HTTP/1.0" 404 Not Found
+INFO:     37.10.114.9:0 - "GET / HTTP/1.0" 404 Not Found
+INFO:     193.68.89.10:0 - "GET / HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "POST /hello.world?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /vendor/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /vendor/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /vendor/phpunit/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /vendor/phpunit/phpunit/LICENSE/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /vendor/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /phpunit/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /lib/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /lib/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /lib/phpunit/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /ws/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /ws/ec/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /V2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /tests/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /apps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /index.php?lang=../../../../../../../../usr/local/lib/php/pearcmd&+config-create+/&/<?echo(md5("hi"));?>+/tmp/index1.php HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /index.php?lang=../../../../../../../../tmp/index1 HTTP/1.0" 404 Not Found
+INFO:     109.199.110.25:0 - "GET /containers/json HTTP/1.0" 404 Not Found
+INFO:     172.168.41.26:0 - "GET /actuator/health HTTP/1.0" 404 Not Found
+INFO:     41.186.96.87:0 - "GET /api/v1/books/1 HTTP/1.0" 200 OK
+INFO:     41.186.96.87:0 - "GET /favicon.ico HTTP/1.0" 404 Not Found
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [12087]
+INFO:     Started server process [13138]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     193.68.89.51:0 - "GET / HTTP/1.0" 404 Not Found
+INFO:     54.196.247.85:0 - "GET / HTTP/1.0" 404 Not Found
+INFO:     57.129.64.237:0 - "GET / HTTP/1.0" 404 Not Found
+INFO:     57.129.64.237:0 - "GET / HTTP/1.0" 404 Not Found
+INFO:     41.186.96.87:0 - "GET /api/v1/books/1 HTTP/1.0" 200 OK
