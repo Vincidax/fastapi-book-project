@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
 from api.router import api_router
@@ -22,6 +22,11 @@ async def health_check():
     """Checks if server is active."""
     return {"status": "active"}
 
-@app.get("/stage2")
+'''@app.get("/stage2")
 async def stage2():
     return {"message": "welcome to stage 2"}
+'''
+
+@app.get("/stage2")
+async def stage2():
+    raise HTTPException(status_code=404, detail="Not Found")
