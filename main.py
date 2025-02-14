@@ -30,6 +30,3 @@ async def stage2():
 @app.get("/stage2")
 async def stage2():
     raise HTTPException(status_code=404, detail="Not Found")
-@app.get("/stage2")
-async def stage2():
-    return {"message": "welcome to stage 2"}
