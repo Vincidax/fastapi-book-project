@@ -27,9 +27,16 @@ async def stage2():
     return {"message": "welcome to stage 2"}
 '''
 
+
+
 @app.get("/stage2")
 async def stage2():
-    # Check if the stage2 has been merged or not
-    if os.getenv("STAGE2_MERGED", "false") == "false":
-        raise HTTPException(status_code=404, detail="Not Found")
-    return {"message": "welcome to stage 2"}
+    try:
+        stage2_merged = os.getenv("STAGE2_MERGED", "false")
+        if stage2_merged == "false":
+            raise HTTPException(status_code=404, detail="Not Found")
+        return {"message": "welcome to stage 2"}
+    except Exception as e:
+        # Log the error for easier debugging
+        print(f"Error in /stage2: {e}")
+        raise HTTPException(status_code=500, detail="Internal Server Error")
