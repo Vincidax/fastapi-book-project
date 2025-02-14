@@ -33,10 +33,6 @@ db.books = {
     ),
 }
 
-@router.get("/stage2")
-async def override_stage2():
-    raise HTTPException(status_code=404, detail="Not Found")
-
 
 @router.post("/", status_code=status.HTTP_201_CREATED)
 async def create_book(book: Book):
