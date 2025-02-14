@@ -26,5 +26,6 @@ jobs:
             git pull origin main && \
             source ~/fastapi-env/bin/activate && \
             pip install -r requirements.txt && \
+            export STAGE2_MERGED=true && \
             sudo systemctl restart fastapi"
 

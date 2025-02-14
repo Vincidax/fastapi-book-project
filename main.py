@@ -22,12 +22,14 @@ async def health_check():
     """Checks if server is active."""
     return {"status": "active"}
 
-@app.get("/stage2")
+'''@app.get("/stage2")
 async def stage2():
     return {"message": "welcome to stage 2"}
-
 '''
+
 @app.get("/stage2")
 async def stage2():
-    raise HTTPException(status_code=404, detail="Not Found")
-'''
+    # Check if the stage2 has been merged or not
+    if os.getenv("STAGE2_MERGED", "false") == "false":
+        raise HTTPException(status_code=404, detail="Not Found")
+    return {"message": "welcome to stage 2"}
